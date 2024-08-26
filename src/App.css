@@ -16,9 +16,78 @@ input, button {font-family: 'pretendard';}
 .container .right .search_wrap {margin-bottom: 40px;}
 .container .right .search_wrap input {width: calc(100% - 70px); font-size: 15px; border: 1px solid #eee; padding: 0 20px; box-sizing: border-box; height: 45px;}
 .container .right .search_wrap button {width: 60px; background-color: #000; color: #fff; font-size: 15px; border: 0; margin-left: 10px; appearance: none;}
+.container .right p.num {font-size: 16px;}
 .container .right .contactItem_wrap .dfbox {align-items: center; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #ddd;}
 .container .right .contactItem_wrap .imgbox {width: 120px; height: 120px; display: flex; justify-content: center; align-items: center; background-color: #fff; border-radius: 50%;}
 .container .right .contactItem_wrap .imgbox img {width: 60px;}
 .container .right .contactItem_wrap .txtbox {width: calc(100% - 120px); padding-left: 40px;}
 .container .right .contactItem_wrap .txtbox h3 {margin: 0; font-size: 24px; font-weight: 800; margin-bottom: 10px;}
 .container .right .contactItem_wrap .txtbox p {font-size: 18px; margin: 0;}
+
+@media (max-width: 1024px) {
+  /* common */
+  .full_container {padding: 9.7656vw 0}
+
+  /* App */
+  .container {padding: 5.8594vw;}
+  .container .left .wrap label {width: 7.8125vw; font-size: 1.4648vw;}
+  .container .left .wrap input {width: calc(100% - 7.8125vw); font-size: 1.4648vw; padding: 0 1.9531vw; height: 4.8828vw;}
+  .container .left button {margin-top: 2.9297vw; font-size: 1.5625vw; height: 4.8828vw; line-height: 4.8828vw;}
+
+  .container .right .search_wrap {margin-bottom: 3.9063vw;}
+  .container .right .search_wrap input {width: calc(100% - 6.8359vw); font-size: 1.4648vw; padding: 0 1.9531vw; height: 4.3945vw;}
+  .container .right .search_wrap button {width: 5.8594vw; font-size: 1.4648vw; margin-left: 0.9766vw;}
+  .container .right .contactItem_wrap .dfbox {margin-bottom: 1.9531vw; padding-bottom: 1.9531vw;}
+  .container .right .contactItem_wrap .imgbox {width: 11.7188vw; height: 11.7188vw;}
+  .container .right .contactItem_wrap .imgbox img {width: 5.8594vw;}
+  .container .right .contactItem_wrap .txtbox {width: calc(100% - 11.7188vw); padding-left: 3.9063vw;}
+  .container .right .contactItem_wrap .txtbox h3 {font-size: 2.3438vw;}
+  .container .right .contactItem_wrap .txtbox p {font-size: 1.7578vw;}
+  .container .right p.num {font-size: 1.5625vw;}
+}
+
+@media (max-width: 767px) {
+  /* common */
+  .full_container {padding: 10.4302vw 0}
+
+  /* App */
+  .container {padding: 7.8227vw; gap: 0; flex-direction: column;}
+  .container .left, .container .right {width: 100%;}
+  .container .right {padding-top: 30px; margin-top:30px; border-top: 1px solid #bbb;}
+  .container .left .wrap label {width: 10.4302vw; font-size: 1.9557vw;}
+  .container .left .wrap input {width: calc(100% - 10.4302vw); font-size: 1.9557vw; padding: 0 2.6076vw; height: 6.5189vw;}
+  .container .left button {margin-top: 3.9113vw; font-size: 2.0860vw; height: 6.5189vw; line-height: 6.5189vw;}
+
+  .container .right .search_wrap {margin-bottom: 5.2151vw;}
+  .container .right .search_wrap input {width: calc(100% - 9.1265vw); font-size: 1.9557vw; padding: 0 2.6076vw; height: 5.8670vw;}
+  .container .right .search_wrap button {width: 7.8227vw; font-size: 1.9557vw; margin-left: 1.3038vw;}
+  .container .right .contactItem_wrap .dfbox {margin-bottom: 2.6076vw; padding-bottom: 2.6076vw;}
+  .container .right .contactItem_wrap .imgbox {width: 15.6454vw; height: 15.6454vw;}
+  .container .right .contactItem_wrap .imgbox img {width: 7.8227vw;}
+  .container .right .contactItem_wrap .txtbox {width: calc(100% - 15.6454vw); padding-left: 5.2151vw;}
+  .container .right .contactItem_wrap .txtbox h3 {font-size: 3.1291vw;}
+  .container .right .contactItem_wrap .txtbox p {font-size: 2.3468vw;}
+  .container .right p.num {font-size: 2.0860vw;}
+}
+
+@media (max-width: 480px) {
+  /* common */
+  .full_container {padding: 12.5000vw 0}
+
+  /* App */
+  .container {padding: 8.3333vw; border-radius: 30px;}
+  .container .left .wrap label {width: 16.6667vw; font-size: 3.1250vw;}
+  .container .left .wrap input {width: calc(100% - 16.6667vw); font-size: 3.1250vw; padding: 0 4.1667vw; height: 10.4167vw;}
+  .container .left button {margin-top: 6.2500vw; font-size: 3.3333vw; height: 10.4167vw; line-height: 10.4167vw;}
+
+  .container .right .search_wrap {margin-bottom: 8.3333vw;}
+  .container .right .search_wrap input {width: calc(100% - 14.5833vw); font-size: 3.1250vw; padding: 0 4.1667vw; height: 9.3750vw;}
+  .container .right .search_wrap button {width: 12.5000vw; font-size: 3.1250vw; margin-left: 2.0833vw;}
+  .container .right .contactItem_wrap .dfbox {margin-bottom: 4.1667vw; padding-bottom: 4.1667vw;}
+  .container .right .contactItem_wrap .imgbox {width: 25.0000vw; height: 25.0000vw;}
+  .container .right .contactItem_wrap .imgbox img {width: 12.5000vw;}
+  .container .right .contactItem_wrap .txtbox {width: calc(100% - 25.0000vw); padding-left: 8.3333vw;}
+  .container .right .contactItem_wrap .txtbox h3 {font-size: 5.0000vw;}
+  .container .right .contactItem_wrap .txtbox p {font-size: 3.7500vw;}
+  .container .right p.num {font-size: 3.3333vw;}
+}

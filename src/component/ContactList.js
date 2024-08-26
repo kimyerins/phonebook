@@ -17,7 +17,7 @@ const ContactList = () => {
   return (
     <div>
       <SearchBox />
-      <p>총 {filteredList.length}명</p>
+      <p className="num">총 {filteredList.length}명</p>
       {filteredList.map((item, index) => (
         <ContactItem item={item} key={index} />
       ))}

@@ -1,11 +1,10 @@
 import React from "react";
 import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 
 const SearchBox = () => {
   const [search, setSearch] = useState("");
   const dispatch = useDispatch();
-  let { contact } = useSelector((state) => state);
   const contactSearch = (event) => {
     event.preventDefault();
     dispatch({ type: "SEARCH_NAME", payload: { search } });
