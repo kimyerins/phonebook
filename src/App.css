@@ -1,0 +1,24 @@
+/* common */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+.dfbox {display: flex;}
+.full_container {padding: 100px 0; font-family: 'pretendard';}
+input, button {font-family: 'pretendard';}
+
+/* App */
+.title {text-align: center;}
+.container {width: 90%; max-width: 1300px; margin: 0 auto; position: relative; gap: 50px; background-color: #fafafa; border-radius: 50px; padding: 60px; box-sizing: border-box;}
+.container .left, .container .right {width: calc((100% - 50px) / 2);}
+.container .left .wrap {margin-bottom: 10px; align-items: center;}
+.container .left .wrap label {width: 80px; font-size: 15px;}
+.container .left .wrap input {width: calc(100% - 80px); font-size: 15px; border: 1px solid #eee; padding: 0 20px; box-sizing: border-box; height: 50px;}
+.container .left button {appearance: none; margin-top: 30px; width: 100%; font-size: 16px; font-weight: 700; color: #fff; height: 50px; line-height: 50px; border: 0; background-color: #000;}
+
+.container .right .search_wrap {margin-bottom: 40px;}
+.container .right .search_wrap input {width: calc(100% - 70px); font-size: 15px; border: 1px solid #eee; padding: 0 20px; box-sizing: border-box; height: 45px;}
+.container .right .search_wrap button {width: 60px; background-color: #000; color: #fff; font-size: 15px; border: 0; margin-left: 10px; appearance: none;}
+.container .right .contactItem_wrap .dfbox {align-items: center; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #ddd;}
+.container .right .contactItem_wrap .imgbox {width: 120px; height: 120px; display: flex; justify-content: center; align-items: center; background-color: #fff; border-radius: 50%;}
+.container .right .contactItem_wrap .imgbox img {width: 60px;}
+.container .right .contactItem_wrap .txtbox {width: calc(100% - 120px); padding-left: 40px;}
+.container .right .contactItem_wrap .txtbox h3 {margin: 0; font-size: 24px; font-weight: 800; margin-bottom: 10px;}
+.container .right .contactItem_wrap .txtbox p {font-size: 18px; margin: 0;}
